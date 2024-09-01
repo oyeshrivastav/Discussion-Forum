@@ -1,0 +1,50 @@
+#ques {
+    min-height: 433px;
+}
+
+.card {
+    overflow: hidden;
+    border-radius: 10px;
+    
+}
+
+
+.response-bg {
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.5s ease-in-out;
+}
+
+.response-bg:hover {
+    transform: scale(1.08);
+}
+
+.btn-green {
+    display: inline-block;
+    font: 16px;
+    color: aliceblue;
+    border-radius: 5px;
+    position: relative;
+    border: 2px solid green;
+    box-shadow: 0 0 0 4em green inset;
+    transition: all 350ms ease;
+    
+}
+.btn-green:hover {
+    box-shadow: 0 0 0 0 green inset;
+    background: whitesmoke;
+    color: green;
+}
+
+h2 {
+/* font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif; */
+font-size: 50px;
+/* padding: 80px 50px; */
+text-align: center;
+font-weight:700;
+/* text-transform: uppercase; */
+/* text-rendering: optimizeLegibility; */
+
+}
